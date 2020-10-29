@@ -1,0 +1,9 @@
+from django.contrib import admin #모델을 관리자 페이지에 등록 역할
+
+# Register your models here.
+# 내가 만든 모델을 관리자 페이지에서 관리할 수 있도록 등록
+
+from .models import Bookmark
+
+
+admin.site.register(Bookmark)
